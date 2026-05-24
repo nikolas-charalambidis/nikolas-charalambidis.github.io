@@ -17,14 +17,21 @@ I add things here when they prove useful in practice, not just in theory.
 
 These are conventions I assume unless there’s a good reason not to.
 
-- RFC 2119 - https://datatracker.ietf.org/doc/html/rfc2119  
+- RFC 2119 - https://datatracker.ietf.org/doc/html/rfc2119
+
   Words like MUST and SHOULD are actually useful when used properly. They remove a lot of guessing from specs.
 
-- Semantic Versioning - https://semver.org  
+- Semantic Versioning - https://semver.org
+
   Version numbers should tell you what kind of change you’re dealing with, not just that something changed.
 
-- UTF-8 Everywhere - https://utf8everywhere.org  
+- UTF-8 Everywhere - https://utf8everywhere.org
+
   Text encoding shouldn’t be something you think about. UTF-8 as default avoids a lot of pain.
+
+- The Twelve-Factor App - https://12factor.net
+
+  It is an open, and pragmatic standard.
 
 ---
 
@@ -32,23 +39,46 @@ These are conventions I assume unless there’s a good reason not to.
 
 Things I return to when complexity starts creeping in.
 
-- https://grugbrain.dev  
+- https://grugbrain.dev
+
   A good reminder that most systems don’t need to be clever - they need to be understandable later.
 
-- The Grug Brained Developer - https://www.lulu.com/shop/carson-gross/the-grug-brained-developer/paperback/product-2m47wqg.html  
-  Light read, but the point sticks: simple systems age better than smart ones.
+- [The Grug Brained Developer](https://www.lulu.com/shop/carson-gross/the-grug-brained-developer/paperback/product-2m47wqg.html)
 
-- Yegor Bugayenko’s books - https://www.yegor256.com/books.html  
+ Light read, but the point sticks: simple systems age better than smart ones.
+
+- Yegor Bugayenko’s [books](https://www.yegor256.com/books.html)
+
   Strong opinions on structure and object design. I don’t agree with everything, but it forces clarity.
+
+- Randall Munroe’s Books: What if + What if 2 + How To. 
+
+  Masterclasses in reductionism.
 
 ---
 
-## How I prefer communication
+## Communication & behavioral efficiency
 
 This is mostly about saving time and avoiding back-and-forth.
 
-- https://nohello.net  
+- https://nohello.net
   Saying just “hello” doesn’t help much. I prefer messages that include the actual question or context right away.
+
+- Thomas Erikson: Surrounded by Idiots
+
+- Thomas Erikson: Surrounded by Liars
+
+---
+
+## Future reads
+
+Books I’ve got my eye on:
+
+- Chris Voss, Tahl Raz: Never Split the Difference: Negotiating As If Your Life Depended On It
+
+- Frederick Brooks: The Mythical Man-Month
+
+- Rob Fitzpatrick: The Mom Test
 
 ---
 
