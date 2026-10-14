@@ -7,6 +7,16 @@ footer {
 /* Footer navigation links */
 .links a {
     margin-right: 1.25em;
+    color: $brand-color;
+    text-decoration: none;
+    &:hover{
+        color: $text-color;
+
+        @media (prefers-color-scheme: dark) {
+            color: $text-color-dark;
+        }
+
+    }
 }
 
 /* Footer copyrights */

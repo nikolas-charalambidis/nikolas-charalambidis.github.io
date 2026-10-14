@@ -4,7 +4,9 @@ tagline: Things I tend to rely on
 description: A living list of standards, ideas, and references that shape how I build software
 layout: default
 permalink: /favorites/
-published: true
+published: false
+nav_title: "Favorites"
+nav_order: 5
 ---
 
 This is a personal collection of things I keep coming back to when I build software or work with others.

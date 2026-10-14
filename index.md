@@ -5,6 +5,8 @@ profile:
   align: right
   image: profile.jpg
 published: true
+nav_title: "Home"
+nav_order: 1
 ---
 Hi, I’m Nikolas. Nice to meet you.
 

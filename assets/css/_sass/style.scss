@@ -28,19 +28,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: $brand-color;
-  text-decoration: none;
-  &:hover{
-    color: $text-color;
-
-    @media (prefers-color-scheme: dark) {
-      color: $text-color-dark;
-    }
-
-  }
-}
-
-p a {
   color: $text-color;
   text-decoration: none;
   background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
@@ -50,10 +37,10 @@ p a {
   -webkit-box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
   box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
 
-
   -webkit-transition: box-shadow ease 0s;
   -moz-transition: box-shadow ease 0s;
   transition: box-shadow ease 0s;
+
   &:hover {
     color: lighten($background-color, 50%);
     -webkit-box-shadow: inset 0 -100px 0 0 lighten($brand-color, 10%);

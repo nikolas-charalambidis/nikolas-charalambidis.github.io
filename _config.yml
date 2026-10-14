@@ -46,7 +46,7 @@ compress_html:
 #collection
 collections:
   projects:
-    output: true
+    output: false
     permalink: /projects/:name/
     order:
       - interviews.md
@@ -56,6 +56,13 @@ collections:
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      published: false
 
 include:
   - _pages
