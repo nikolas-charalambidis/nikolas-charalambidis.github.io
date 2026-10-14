@@ -1,0 +1,9 @@
+# Nav links to pages hosted in other repositories (pages in this repo declare nav_title/nav_order in front matter)
+- nav_title: "CV"
+  url: /cv/
+  nav_order: 3
+  published: true
+- nav_title: "Wiki"
+  url: /wiki/
+  nav_order: 4
+  published: true
